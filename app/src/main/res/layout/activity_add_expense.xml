@@ -1,0 +1,20 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:layout_margin="5dp">
+    <EditText android:id="@+id/expenseNameEditText" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/expensenameedittext"
+
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/amountedittext"
+
+        android:minWidth="32dp"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A" />
+    <Button android:id="@+id/addExpenseButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/addexpense"/>
+</LinearLayout>
